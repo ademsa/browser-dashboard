@@ -5,7 +5,7 @@ export default function Plugin(props) {
         <React.Fragment>
             <div className="columns is-vcentered is-centered is-mobile is-multiline" id={"item-" + props.startIdx}>
                 <div className="column is-2-mobile is-1-tablet has-text-centered">
-                    <a href={"/dashboard?id=" + props.startIdx}>{props.startIdx}</a>
+                    <a href={"/browser-dashboard/dashboard?id=" + props.startIdx}>{props.startIdx}</a>
                 </div>
                 <div className="column is-6-mobile is-3-tablet has-text-centered-mobile">
                     {props.item.name}

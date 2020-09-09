@@ -6,7 +6,7 @@ export default function Feature(props) {
         <React.Fragment>
             <div className="columns is-vcentered is-centered is-mobile is-multiline" id={"item-" + props.item.id}>
                 <div className="column is-4-mobile is-1-tablet has-text-centered">
-                    <a href={"/dashboard?id=" + props.item.id}>{props.item.id}</a>
+                    <a href={"/browser-dashboard/dashboard?id=" + props.item.id}>{props.item.id}</a>
                 </div>
                 <div className="column is-8-mobile is-3-tablet">
                     <a href={"https://caniuse.com/#feat=" + props.item.name}>{props.item.name}</a>
