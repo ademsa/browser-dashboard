@@ -5,7 +5,7 @@ export default function Spec(props) {
         <React.Fragment>
             <div className="columns is-vcentered is-centered is-mobile is-multiline" id={"item-" + props.item.id}>
                 <div className="column is-4-mobile is-1-tablet has-text-centered">
-                    <a href={"/browser-dashboard/dashboard?id=" + props.item.id}>{props.item.id}</a>
+                    <a href={"/browser-dashboard/?id=" + props.item.id}>{props.item.id}</a>
                 </div>
                 <div className="column is-8-mobile is-3-tablet has-text-centered-mobile">
                     <a href={props.item.descriptionUrl} target="_blank" rel="noopener noreferrer">{props.item.name}</a>
