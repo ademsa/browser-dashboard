@@ -10,7 +10,7 @@ export default function HeaderSection(props) {
                         <div className="columns is-vcentered">
                             <div className="column is-offset-1 is-4">
                                 <p className="title is-1">Get to know<br />your browser.</p>
-                                <p className="subtitle is-5">All detected specs, plugins, fonts and features at one place. Sorted and Searchable.</p>
+                                <p className="subtitle is-5">All detected specs, plugins, fonts and features in one place. Sorted and Searchable.</p>
                             </div>
                             <div className="column is-offset-1 is-6-tablet is-4-desktop">
                                 <div className="field has-addons">

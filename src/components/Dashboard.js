@@ -15,7 +15,7 @@ import { GetSpecs, GetPlugins, GetFonts } from '../data/detect';
 let specs = GetSpecs();
 
 // Plugins
-const pluginsStartIdx = 29;
+const pluginsStartIdx = 33;
 let plugins = GetPlugins(pluginsStartIdx);
 
 // Fonts
@@ -98,7 +98,7 @@ export default class Dashboard extends React.Component {
           "value": item,
           "type": "spec",
         });
-      } else if (searchID === 29) {
+      } else if (searchID === pluginsStartIdx) {
         plugins.forEach(item => {
           searchResults.push({
             "id": item.id,

@@ -7,7 +7,7 @@ export default function Spec(props) {
                 <div className="column is-4-mobile is-1-tablet has-text-centered">
                     <a href={"/browser-dashboard/?id=" + props.item.id}>{props.item.id}</a>
                 </div>
-                <div className="column is-8-mobile is-3-tablet has-text-centered-mobile">
+                <div className="column is-8-mobile is-4-tablet has-text-centered-mobile">
                     <a href={props.item.descriptionUrl} target="_blank" rel="noopener noreferrer">{props.item.name}</a>
                 </div>
                 <div className="column has-text-centered-mobile">

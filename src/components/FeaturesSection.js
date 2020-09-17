@@ -17,7 +17,7 @@ export default function FeaturesSection(props) {
                         <div className="column is-4-mobile is-1-tablet has-text-centered">
                             <p className="title is-5">ID</p>
                         </div>
-                        <div className="column is-8-mobile is-3-tablet">
+                        <div className="column is-8-mobile is-4-tablet">
                             <p className="title is-5">Name / Description</p>
                         </div>
                         <div className="column has-text-centered">

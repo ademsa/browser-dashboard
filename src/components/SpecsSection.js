@@ -11,7 +11,7 @@ export default function SpecsSection(props) {
                         <div className="column is-4-mobile is-1-tablet has-text-centered">
                             <p className="title is-5">ID</p>
                         </div>
-                        <div className="column is-8-mobile is-3-tablet has-text-centered-mobile">
+                        <div className="column is-8-mobile is-4-tablet has-text-centered-mobile">
                             <p className="title is-5">Name</p>
                         </div>
                         <div className="column has-text-centered-mobile">

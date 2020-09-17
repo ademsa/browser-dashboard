@@ -19,7 +19,7 @@ export default function SearchResultsSection(props) {
                                 <div className="column is-1 has-text-centered">
                                     <p className="title is-5">ID</p>
                                 </div>
-                                <div className="column is-3">
+                                <div className="column is-4">
                                     <p className="title is-5">Name</p>
                                 </div>
                                 <div className="column">

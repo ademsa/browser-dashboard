@@ -8,7 +8,7 @@ export default function Feature(props) {
                 <div className="column is-4-mobile is-1-tablet has-text-centered">
                     <a href={"/browser-dashboard/?id=" + props.item.id}>{props.item.id}</a>
                 </div>
-                <div className="column is-8-mobile is-3-tablet">
+                <div className="column is-8-mobile is-4-tablet">
                     <a href={"https://caniuse.com/#feat=" + props.item.name}>{props.item.name}</a>
                     <br />
                     <p className="subtitle is-7">{props.item.title}</p>

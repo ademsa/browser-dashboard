@@ -41,6 +41,10 @@ export function GetSpecs() {
         { "id": "26", "name": "navigator.cookieEnabled", "value": String(navigator.cookieEnabled), "valueType": "boolean", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/cookieEnabled" },
         { "id": "27", "name": "navigator.doNotTrack", "value": navigator.doNotTrack, "valueType": "boolean", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/doNotTrack" },
         { "id": "28", "name": "navigator.javaEnabled()", "value": String(navigator.javaEnabled()), "valueType": "boolean", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/javaEnabled" },
+        { "id": "29", "name": "Intl.DateTimeFormat() .resolvedOptions().timeZone", "value": Intl.DateTimeFormat().resolvedOptions().timeZone, "valueType": "string", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions" },
+        { "id": "30", "name": "Intl.DateTimeFormat() .resolvedOptions().calendar", "value": Intl.DateTimeFormat().resolvedOptions().calendar, "valueType": "string", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions" },
+        { "id": "31", "name": "Intl.DateTimeFormat() .resolvedOptions().locale", "value": Intl.DateTimeFormat().resolvedOptions().locale, "valueType": "string", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions" },
+        { "id": "32", "name": "Intl.DateTimeFormat() .resolvedOptions().numberingSystem", "value": Intl.DateTimeFormat().resolvedOptions().numberingSystem, "valueType": "string", "descriptionUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions" },
     ];
 }
 
