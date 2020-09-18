@@ -7,7 +7,7 @@ export default function Plugin(props) {
                 <div className="column is-2-mobile is-1-tablet has-text-centered">
                     <a href={"/browser-dashboard/?id=" + props.startIdx}>{props.startIdx}</a>
                 </div>
-                <div className="column is-6-mobile is-3-tablet has-text-centered-mobile">
+                <div className="column is-8-mobile is-4-tablet has-text-centered-mobile">
                     {props.item.name}
                 </div>
                 <div className="column has-text-centered-mobile">

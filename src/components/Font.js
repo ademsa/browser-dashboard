@@ -8,7 +8,7 @@ export default function Font(props) {
                 <div className="column is-2-mobile is-1-tablet has-text-centered">
                     <a href={"/browser-dashboard/?id=" + props.item.id}>{props.item.id}</a>
                 </div>
-                <div className="column is-6-mobile is-3-tablet">
+                <div className="column is-8-mobile is-4-tablet">
                     {props.item.name}
                 </div>
                 <div className="column has-text-centered-mobile">

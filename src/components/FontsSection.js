@@ -19,7 +19,7 @@ export default function FontsSection(props) {
                         <div className="column is-2-mobile is-1-tablet has-text-centered">
                             <p className="title is-5">ID</p>
                         </div>
-                        <div className="column is-6-mobile is-3-tablet">
+                        <div className="column is-8-mobile is-4-tablet">
                             <p className="title is-5">Name</p>
                         </div>
                         <div className="column has-text-centered-mobile">
