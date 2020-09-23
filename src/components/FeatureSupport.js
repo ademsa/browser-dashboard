@@ -6,13 +6,13 @@ export default function FeatureSupport(props) {
         <React.Fragment>
             {navigator.userAgent.indexOf("Firefox") > -1 &&
                 <div className="columns is-vcentered is-mobile is-multiline">
-                    <div className="column is-6-mobile is-5-tablet has-text-centered">
+                    <div className="column is-6 has-text-centered">
                         <FeatureSupportPerBrowser browser="Firefox" browserStats={props.stats.firefox} />
                     </div>
-                    <div className="column is-6-mobile is-5-tablet has-text-centered">
+                    <div className="column is-6 has-text-centered">
                         <FeatureSupportPerBrowser browser="Firefox for Android" browserStats={props.stats.and_ff} />
                     </div>
-                    <div className="column is-12-mobile is-narrow-tablet has-text-centered">
+                    <div className="column is-12 has-text-centered">
                         <a href={"https://caniuse.com/#feat=" + props.name}>Other browsers</a>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function FeatureSupport(props) {
             }
             {Object.entries(props.notes_by_num).length > 0 &&
                 <div className="has-text-centered">
-                    <p className="title is-6">Notes</p>
+                    <p className="title is-6 mb-2">Notes</p>
                     {Object.entries(props.notes_by_num).map(([key, value]) =>
                         <p key={key} className="subtitle is-7 my-1">{value}</p>
                     )}

@@ -10,7 +10,7 @@ export default function Footer() {
                         <span className="tag is-danger has-text-white">Dashboard</span>
                     </div>
                     <p className="mt-2">
-                        Source code available <a href="http://github.com/ademsa/browser-dashboard">here</a>.
+                        Source code available <a href="http://github.com/ademsa/browser-dashboard">here</a> (<a href="https://github.com/ademsa/browser-dashboard/blob/master/LICENSE.md">MIT license</a>).
                     </p>
                 </div>
             </footer>
