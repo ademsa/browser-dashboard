@@ -16,7 +16,7 @@
   "scripts": {
     "css-build": "node-sass --omit-source-map-url src/App.scss src/App.css",
     "css-watch": "npm run css-build -- --watch",
-    "import-ext-data": "npm run src/ext-data/import.js",
+    "import-ext-data": "node src/ext-data/import.js",
     "start": "npm run css-build && react-scripts start",
     "build": "npm run css-build && react-scripts build",
     "test": "react-scripts test",
