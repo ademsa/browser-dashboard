@@ -1,6 +1,6 @@
 import React from 'react';
 import ProtocolPagesSection from './ProtocolPagesSection';
-import { FirefoxURIs, ChromeURIs, ChromeDebugURIs, EdgeURIs } from './../data/protocol-pages';
+import { FirefoxURIs, ChromeURIs, ChromeDebugURIs, EdgeURIs, EdgeDebugURIs } from './../data/protocol-pages';
 
 export default function ProtocolPages() {
     React.useEffect(() => {
@@ -25,7 +25,7 @@ export default function ProtocolPages() {
 
             <ProtocolPagesSection browser="Mozilla Firefox" pages={FirefoxURIs} />
             <ProtocolPagesSection browser="Google Chrome" pages={ChromeURIs} debugPages={ChromeDebugURIs} />
-            <ProtocolPagesSection browser="Microsoft Edge" pages={EdgeURIs} />
+            <ProtocolPagesSection browser="Microsoft Edge" pages={EdgeURIs} debugPages={EdgeDebugURIs} />
 
             <section className="section has-text-centered mt-5">
                 <div className="container">
