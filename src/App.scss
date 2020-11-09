@@ -19,6 +19,7 @@ $link: $green;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/content.sass";
 @import "../node_modules/bulma/sass/elements/tag.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/form/shared.sass";
@@ -38,6 +39,11 @@ $link: $green;
 }
 
 // Custom
+.navbar-items-centered{
+    display:inline-flex;
+    text-align: center;
+}
+
 .tags-logo{
     margin-right: 0.5rem;
     width:100%;
@@ -50,7 +56,6 @@ $link: $green;
     border-left: 1px solid $white;
 }
 
-.navbar-items-centered{
-    display:inline-flex;
-    text-align: center;
+.footer .author {
+    height: 25px;
 }
