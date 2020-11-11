@@ -6,7 +6,7 @@ export default function ProtocolPagesSection(props) {
         <React.Fragment>
             <section className="section has-text-centered">
                 <div className="container">
-                    <p className="title is-3">{props.browser}</p>
+                    <p className="title is-3 has-text-weight-light">{props.browser}</p>
                     <div className="columns is-vcentered is-centered">
                         <div className="column is-8 has-text-center">
                             <div className="columns is-mobile is-multiline is-vcentered is-centered">

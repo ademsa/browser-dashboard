@@ -11,7 +11,7 @@ export default function FeaturesSection(props) {
         <React.Fragment>
             <section className="section" id="features">
                 <div className="container">
-                    <p className="title is-3 has-text-centered">Features</p>
+                    <p className="title is-3 has-text-weight-light has-text-centered">Features</p>
                     <p className="subtitle is-5 has-text-centered">{props.features.length} features <a href="#features-notes" onClick={scrollToNotes}>*</a></p>
                     <div className="columns is-vcentered is-centered is-mobile is-multiline">
                         <div className="column is-4-mobile is-1-tablet has-text-centered">

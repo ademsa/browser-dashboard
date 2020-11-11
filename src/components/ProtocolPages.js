@@ -15,7 +15,7 @@ export default function ProtocolPages() {
                         <div className="columns is-vcentered is-centered">
                             <div className="column is-12">
                                 <p className="title is-1">Browser Protocol Pages</p>
-                                <p className="subtitle is-3">Bellow is a list of internal pages implemented in various browsers. <br />They reveal internal state, settings and preferences, built-in functionality, etc.</p>
+                                <p className="subtitle is-3 has-text-weight-light">Bellow is a list of internal pages implemented in various browsers. <br />They reveal internal state, settings and preferences, built-in functionality, etc.</p>
                                 <span className="tag is-danger mr-1">NOTE</span> For security reasons, these pages must be accessed manually, by typing uri in address bar.
                             </div>
                         </div>
@@ -29,7 +29,7 @@ export default function ProtocolPages() {
 
             <section className="section has-text-centered mt-5">
                 <div className="container">
-                    <p className="title is-4">References</p>
+                    <p className="title is-4 has-text-weight-light">References</p>
                     <a href="https://en.wikipedia.org/wiki/About_URI_scheme">https://en.wikipedia.org/wiki/About_URI_scheme</a>
                     <br />
                     <a className="mt-1" href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/The_about_protocol">https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/The_about_protocol</a>

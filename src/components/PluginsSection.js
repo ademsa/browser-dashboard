@@ -11,7 +11,7 @@ export default function PluginsSection(props) {
         <React.Fragment>
             <section className="section" id="plugins">
                 <div className="container">
-                    <p className="title is-3 has-text-centered">Plugins</p>
+                    <p className="title is-3 has-text-weight-light has-text-centered">Plugins</p>
                     {props.plugins.length > 0 ?
                         <React.Fragment>
                             <p className="subtitle is-5 has-text-centered">{props.plugins.length} plugin(s) detected <a href="#plugins-notes" onClick={scrollToNotes}>*</a></p>
