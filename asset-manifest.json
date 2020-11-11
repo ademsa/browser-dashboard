@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/browser-dashboard/static/css/main.ccb2df27.chunk.css",
-    "main.js": "/browser-dashboard/static/js/main.96a37d25.chunk.js",
-    "main.js.map": "/browser-dashboard/static/js/main.96a37d25.chunk.js.map",
+    "main.js": "/browser-dashboard/static/js/main.bd083533.chunk.js",
+    "main.js.map": "/browser-dashboard/static/js/main.bd083533.chunk.js.map",
     "runtime-main.js": "/browser-dashboard/static/js/runtime-main.7fe80665.js",
     "runtime-main.js.map": "/browser-dashboard/static/js/runtime-main.7fe80665.js.map",
     "static/js/2.09835aa3.chunk.js": "/browser-dashboard/static/js/2.09835aa3.chunk.js",
     "static/js/2.09835aa3.chunk.js.map": "/browser-dashboard/static/js/2.09835aa3.chunk.js.map",
     "index.html": "/browser-dashboard/index.html",
-    "precache-manifest.3d269130e210dac1610f1b37e010018f.js": "/browser-dashboard/precache-manifest.3d269130e210dac1610f1b37e010018f.js",
+    "precache-manifest.9e3a6061ce53d3d9c2118fdc2bc50f13.js": "/browser-dashboard/precache-manifest.9e3a6061ce53d3d9c2118fdc2bc50f13.js",
     "static/css/main.ccb2df27.chunk.css.map": "/browser-dashboard/static/css/main.ccb2df27.chunk.css.map",
     "static/js/2.09835aa3.chunk.js.LICENSE.txt": "/browser-dashboard/static/js/2.09835aa3.chunk.js.LICENSE.txt"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.7fe80665.js",
     "static/js/2.09835aa3.chunk.js",
     "static/css/main.ccb2df27.chunk.css",
-    "static/js/main.96a37d25.chunk.js"
+    "static/js/main.bd083533.chunk.js"
   ]
 }
