@@ -6,7 +6,7 @@ export default function SpecsSection(props) {
         <React.Fragment>
             <section className="section" id="specs">
                 <div className="container">
-                    <p className="title is-3 has-text-centered">Specs</p>
+                    <p className="title is-3 has-text-weight-light has-text-centered">Specs</p>
                     <div className="columns is-vcentered is-centered is-mobile is-multiline">
                         <div className="column is-4-mobile is-1-tablet has-text-centered">
                             <p className="title is-5">ID</p>

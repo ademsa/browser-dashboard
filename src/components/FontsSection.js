@@ -11,7 +11,7 @@ export default function FontsSection(props) {
         <React.Fragment>
             <section className="section" id="fonts">
                 <div className="container">
-                    <p className="title is-3 has-text-centered">Fonts</p>
+                    <p className="title is-3 has-text-weight-light has-text-centered">Fonts</p>
                     <p className="subtitle is-6 has-text-centered">
                         {props.fonts.length} fonts <a href="#fonts-notes" onClick={scrollToNotes}>*</a>
                     </p>

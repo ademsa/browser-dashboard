@@ -8,7 +8,7 @@ export default function NotesSection() {
                     <div className="container">
                         <div className="columns is-vcentered">
                             <div className="column is-one-quarter has-text-centered">
-                                <p className="title is-3">Notes</p>
+                                <p className="title is-3 has-text-weight-light">Notes</p>
                             </div>
                             <div className="column is-three-quarter">
                                 <p className="title is-5" id="plugins-notes">Plugins</p>

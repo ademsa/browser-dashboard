@@ -15,7 +15,7 @@ export default function Footer() {
                         <img className="author" src="/browser-dashboard/author.svg" alt="Author" />
                     </a>
                     <p className="has-text-weight-light my-2 is-size-7">
-                        Checkout other projects
+                        Other projects
                     </p>
                     <a href="https://ademsa.github.io/regex360" className="mx-2 has-text-weight-normal">RegEx360</a>
                     <a href="https://ademsa.github.io/web-page-data" className="has-text-weight-normal">Web Page Data</a>

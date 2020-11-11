@@ -23,7 +23,7 @@ export default function Download() {
                     <div className="container">
                         <div className="columns is-vcentered is-mobile is-multiline">
                             <div className="column">
-                                <p className="title is-1"><a className="has-text-grey-darker" href="https://www.mozilla.org/en-US/firefox/">Firefox</a></p>
+                                <p className="title is-3 has-text-weight-light"><a className="has-text-grey-darker" href="https://www.mozilla.org/en-US/firefox/">Firefox</a></p>
                                 <a className="has-text-grey-darker mr-3" href="https://en.wikipedia.org/wiki/Firefox">Wikipedia</a>
                                 |
                                 <a className="has-text-grey-darker ml-3" href="https://addons.mozilla.org/en-US/firefox/">Add-ons for Firefox</a>
@@ -64,7 +64,7 @@ export default function Download() {
                     <div className="container">
                         <div className="columns is-vcentered is-mobile is-multiline">
                             <div className="column">
-                                <p className="title is-1"><a className="has-text-white" href="https://www.google.com/intl/en-us/chrome/">Google Chrome</a></p>
+                                <p className="title is-3 has-text-weight-light"><a className="has-text-white" href="https://www.google.com/intl/en-us/chrome/">Google Chrome</a></p>
                                 <a className="has-text-white mr-3" href="https://en.wikipedia.org/wiki/Google_Chrome">Wikipedia</a>
                                 |
                                 <a className="has-text-white ml-3" href="https://chrome.google.com/webstore/category/extensions">Chrome Web Store Extensions</a>
@@ -102,7 +102,7 @@ export default function Download() {
                     <div className="container">
                         <div className="columns is-vcentered is-mobile is-multiline">
                             <div className="column">
-                                <p className="title is-1"><a className="has-text-white" href="https://www.microsoft.com/en-us/edge">Microsoft Edge</a></p>
+                                <p className="title is-3 has-text-weight-light"><a className="has-text-white" href="https://www.microsoft.com/en-us/edge">Microsoft Edge</a></p>
                                 <a className="has-text-white mr-3" href="https://en.wikipedia.org/wiki/Microsoft_Edge">Wikipedia</a>
                                 |
                                 <a className="has-text-white ml-3" href="https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home">Extensions for Microsoft Edge</a>
