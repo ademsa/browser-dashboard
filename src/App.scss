@@ -38,22 +38,14 @@ $link: $green;
     width:100%;
 }
 
+.navbar-brand img {
+    max-height: 3rem; 
+}
+
 // Custom
 .navbar-items-centered{
     display:inline-flex;
     text-align: center;
-}
-
-.tags-logo{
-    margin-right: 0.5rem;
-    width:100%;
-    justify-content: center;
-}
-
-.tags-logo .tag-browser{
-    border-top: 1px solid $white;
-    border-bottom: 1px solid $white;
-    border-left: 1px solid $white;
 }
 
 .footer .author {
