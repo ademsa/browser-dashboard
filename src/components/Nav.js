@@ -7,11 +7,8 @@ export default function Nav() {
             <nav className="navbar is-success is-spaced" id="top">
                 <div className="navbar-brand">
                     <div className="navbar-item">
-                        <Link to="/">
-                            <div className="tags has-addons tags-logo">
-                                <span className="tag is-success tag-browser"><strong className="has-text-white">BROWSER</strong></span>
-                                <span className="tag is-danger has-text-white">Dashboard</span>
-                            </div>
+                        <Link to="/" className="has-text-centered-mobile has-text-centered-tablet">
+                            <img src="/browser-dashboard/logo.svg" alt="Logo" />
                         </Link>
                     </div>
                 </div>
