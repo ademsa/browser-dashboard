@@ -5,6 +5,7 @@ function DownloadData() {
     axios.get('https://raw.githubusercontent.com/Fyrd/caniuse/master/data.json',
         { headers: { 'Accept': 'application/json' } })
         .then(function (response) {
+            console.log('Received response. Processing...');
             const data = response.data;
             const features = [];
             Object.entries(data.data).forEach(([featureKey, featureData]) => {
@@ -26,7 +27,9 @@ function DownloadData() {
                 });
                 features.push(newFeatureData);
             })
+            console.log('Writing results...');
             fs.writeFileSync('./src/ext-data/caniuse-data-lite.json', JSON.stringify(features));
+            console.log('Completed.');
         }).catch(function (error) {
             console.log('error', error);
         });
