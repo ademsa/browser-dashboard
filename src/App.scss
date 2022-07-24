@@ -1,14 +1,11 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 
 // Override variables
-$family-sans-serif: "Open Sans", sans-serif;
-$navbar-item-color:$white;
-$navbar-item-background-color:$success;
-$navbar-background-color:transparent;
+$navbar-item-color: $white;
+$navbar-item-background-color: $success;
+$navbar-background-color: transparent;
 $hero-body-padding: 2rem 1rem;
 $section-padding: 1rem 1rem;
 $footer-background-color: $white;
@@ -30,24 +27,25 @@ $link: $green;
 @import "../node_modules/bulma/sass/layout/_all.sass";
 
 // Overrides
-.navbar-menu{
-    box-shadow: none;
+.navbar-menu {
+  box-shadow: none;
 }
 
-.navbar-brand .navbar-item, .navbar-brand .navbar-item a{
-    width:100%;
+.navbar-brand .navbar-item,
+.navbar-brand .navbar-item a {
+  width: 100%;
 }
 
 .navbar-brand img {
-    max-height: 3rem; 
+  max-height: 3rem;
 }
 
 // Custom
-.navbar-items-centered{
-    display:inline-flex;
-    text-align: center;
+.navbar-items-centered {
+  display: inline-flex;
+  text-align: center;
 }
 
 .footer .author {
-    height: 25px;
+  height: 25px;
 }
