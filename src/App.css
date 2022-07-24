@@ -5817,3 +5817,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .footer .author {
   height: 25px; }
+
+@media screen and (max-width: 1022px) {
+  .navbar-menu.is-active {
+    align-items: center;
+    display: flex; }
+  .navbar-end {
+    justify-content: center;
+    align-items: center;
+    display: flex; } }

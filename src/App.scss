@@ -49,3 +49,15 @@ $link: $green;
 .footer .author {
   height: 25px;
 }
+
+@include until(1023px) {
+  .navbar-menu.is-active {
+    align-items: center;
+    display: flex;
+  }
+  .navbar-end {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
