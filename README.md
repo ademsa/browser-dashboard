@@ -1,7 +1,7 @@
-![BrowserDashboard](docs/logo.png)
+![BrowserDashboard](static/logo.png)
 
 # Browser Dashboard
 
 Detect and display browser specs, plugins, fonts and features.
 
-![BrowserDashboard UI](docs/ui.png)
+![BrowserDashboard UI](static/ui.png)
