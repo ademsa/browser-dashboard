@@ -15,7 +15,7 @@
     "css-watch": "node-sass --omit-source-map-url src/App.scss src/App.css --watch",
     "import-ext-data": "node src/ext-data/import.js",
     "start": "concurrently \"npm:css-watch\" \"react-scripts start\"",
-    "build": "npm run css-build && react-scripts build",
+    "build": "npm run css-build && BUILD_PATH='./docs' react-scripts build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
