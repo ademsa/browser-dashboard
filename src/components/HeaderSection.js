@@ -12,7 +12,7 @@ export default function HeaderSection(props) {
           <div className="container">
             <div className="columns is-vcentered is-dektop">
               <div className="column is-offset-1-desktop is-4-desktop">
-                <p className="title is-1">
+                <p className="title">
                   Get to know
                   <br />
                   your browser.

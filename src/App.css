@@ -5818,6 +5818,21 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer .author {
   height: 25px; }
 
+.hero .title {
+  font-size: 3rem; }
+
+.hero .subtitle {
+  font-size: 1.25rem; }
+
+@media screen and (max-width: 768px) {
+  .navbar-item {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.75rem; }
+  .hero .title {
+    font-size: 2rem; }
+  .hero .subtitle {
+    font-size: 1rem; } }
+
 @media screen and (max-width: 1022px) {
   .navbar-menu.is-active {
     align-items: center;

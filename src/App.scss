@@ -50,6 +50,27 @@ $link: $green;
   height: 25px;
 }
 
+.hero .title {
+  font-size: $size-1;
+}
+
+.hero .subtitle {
+  font-size: $size-5;
+}
+
+@include mobile {
+  .navbar-item {
+    padding: 0.5rem 0.5rem;
+    font-size: $size-7;
+  }
+  .hero .title {
+    font-size: $size-3;
+  }
+  .hero .subtitle {
+    font-size: $size-6;
+  }
+}
+
 @include until(1023px) {
   .navbar-menu.is-active {
     align-items: center;
