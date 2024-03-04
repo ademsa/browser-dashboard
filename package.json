@@ -1,25 +1,27 @@
 {
   "name": "browser-dashboard",
   "homepage": "https://ademsa.github.io/browser-dashboard",
-  "version": "0.3.4",
+  "version": "0.4.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
-    "axios": "^1.2.0",
+    "axios": "^1.6.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.4",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "^5.0.1",
+    "@babel/plugin-transform-private-property-in-object": "^7.21.0",
+    "lodash": "^4.17.21",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^9.4.0",
+    "postcss-normalize": "^10.0.1"
   },
   "scripts": {
     "css-build": "node-sass --omit-source-map-url src/App.scss src/App.css",
     "css-watch": "node-sass --omit-source-map-url src/App.scss src/App.css --watch",
     "import-ext-data": "node src/ext-data/import.js",
     "start": "concurrently \"npm:css-watch\" \"react-scripts start\"",
-    "build": "npm run css-build && BUILD_PATH='./docs' react-scripts build",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "build": "npm run css-build && BUILD_PATH='./docs' react-scripts build"
   },
   "browserslist": {
     "production": [
@@ -35,7 +37,10 @@
   },
   "devDependencies": {
     "bulma": "^0.9.4",
-    "concurrently": "^7.6.0",
-    "node-sass": "^8.0.0"
+    "concurrently": "^8.2.2",
+    "node-sass": "^9.0.0"
+  },
+  "overrides": {
+    "react-refresh": "0.11.0"
   }
 }
